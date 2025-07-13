@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio using TailWinndCss</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="bg-gray-900">
+    <nav class="flex justify-center text-sm relative">
+        <div class="fixed top-5 z-[1001]">
+            <div class="border border-gray-600 rounded-full flex p-[1px] backdrop-blur-lg ">
+                <a href="#home" class="px-4 py-1 text-neutral-200">الرئيسية</a>
+                <a href="#projects" class="px-4 py-1 text-neutral-200">مشاريع</a>
+                <a href="#about" class="px-4 py-1 text-neutral-200">حول</a>
+                <a href="#contact" class="px-4 py-1 bg-gray-200 rounded-full">تواصل</a>
+            </div>
+        </div>
+    </nav>
+    <section class="min-h-[700px] max-w-6xl mx-auto grid place-content-center text-white ">
+        <div class="flex flex-col items-center ">
+            <img src="./images/memoji-computer.png" alt="" class="h-20">
+            <span
+                class="leading-none border border-gray-600 rounded-full px-4 py-1 text-sm text-neutral-200 bg-slate-950 flex items-center gap-2">
+                <div class="w-[10px] h-[10px] bg-green-500 rounded-full"></div>
+                متوفر لإستقبال مشاريع الويب وتطبيقات الموبايل
+            </span>
+        </div>
+        <div class="text-center my-5 space-y-3">
+            <h1
+                class="text-5xl font-bold bg-gradient-to-t from-green-700 to-green-50 bg-clip-text text-transparent p-2">
+                بناء تحربة <br> مستخدم فريدة
+            </h1>
+            <p class="max-w-md text-neutral-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nostrum
+                possimus fugiat? Molestias animi
+                numquam, architecto tempore cumque modi repellendus quod pariatur. Tempore iusto incidunt natus. Ea
+                voluptatem distinctio impedit.</p>
+        </div>
+        <div class="flex gap-2 items-center justify-center text-sm">
+            <button class="px-4 py-2 border rounded-lg border-neutral-500 text-neutral-200">تصفح اعمالي</button>
+            <button class="px-4 py-2 border rounded-lg bg-neutral-200 text-black  ">تواصل معي</button>
+        </div>
+    </section>
+
+    <section class=" max-w-6xl mx-auto px-4 " id="projects">
+        <div class="text-center space-y-3">
+            <h3
+                class=" text-sm font-bold bg-gradient-to-r from-emerald-300 to-cyan-500 bg-clip-text text-transparent inline">
+                نتائج من ارض الواقع</h3>
+            <h2
+                class="text-5xl font-bold bg-gradient-to-b from-neutral-50 from-40% to-neutral-500 bg-clip-text text-transparent p-4">
+                مشاريع سابقة</h2>
+
+            <p class="text-neutral-400">يمكنك الاطلاع هنا على المشاريع السابقة التي عملت عليها.</p>
+        </div>
+
+        <main class="grid place-content-center gap-14 mt-10">
+            <div
+                class="flex flex-col md:flex-row md:gap-5 border bg-gray-800 rounded-2xl px-8 pt-8 md:pb-8 overflow-hidden max-w-[300px] md:max-w-[700px]">
+                <div class="space-y-5">
+                    <div class="border-b border-grey-600 pb-3">
+                        <h3
+                            class="text-sm font-bold bg-gradient-to-r from-emerald-300 to-cyan-500 text-transparent bg-clip-text inline tracking-widest">
+                            مشروع 1</h3>
+                        <h2 class="text-4xl font-bold text-neutral-50 uppercase">وصف المشروع الأول</h2>
+                    </div>
+                    <ul class="text-neutral-500">
+                        <li class="flex items-center gap-1"> <img src="./images/memoji-computer.png" alt=""
+                                class="size-7"><span>ميزة 1</span></li>
+                        <li class="flex items-center gap-1"> <img src="./images/memoji-computer.png" alt=""
+                                class="size-7"><span>ميزة 2</span></li>
+                        <li class="flex items-center gap-1"> <img src="./images/memoji-computer.png" alt=""
+                                class="size-7"><span>ميزة 3`</span></li>
+                    </ul>
+                    <a href=""
+                        class="px-4 py-2 w-full md:w-auto border rounded-lg flex justify-center items-center gap-1 bg-white">مشاهدة
+                        المشروع على جيت هب
+                        <img src="./images/github.png" alt="" class="h-5">
+                    </a>
+                </div>
+                <img src="./images/memoji-computer.png" alt=""
+                    class=" rounded-2xl mt-5 -mb-10 h-[220px] object-fill md:hidden">
+                <img src="./images/memoji-computer.png" alt=""
+                    class=" hidden md:block md:w-[300px] md:-mr-10 md:-mb20 ">
+            </div>
+
+        </main>
+
+        <main class="grid place-content-center gap-14 mt-10">
+            <div
+                class="flex flex-col md:flex-row md:gap-5 border bg-gray-800 rounded-2xl px-8 pt-8 md:pb-8 overflow-hidden max-w-[300px] md:max-w-[700px]">
+                <div class="space-y-5">
+                    <div class="border-b border-grey-600 pb-3">
+                        <h3
+                            class="text-sm font-bold bg-gradient-to-r from-emerald-300 to-cyan-500 text-transparent bg-clip-text inline tracking-widest">
+                            مشروع 2</h3>
+                        <h2 class="text-4xl font-bold text-neutral-50 uppercase">وصف المشروع الثاني</h2>
+                    </div>
+                    <ul class="text-neutral-500">
+                        <li class="flex items-center gap-1"> <img src="./images/memoji-computer.png" alt=""
+                                class="size-7"><span>ميزة 1</span></li>
+                        <li class="flex items-center gap-1"> <img src="./images/memoji-computer.png" alt=""
+                                class="size-7"><span>ميزة 2</span></li>
+                        <li class="flex items-center gap-1"> <img src="./images/memoji-computer.png" alt=""
+                                class="size-7"><span>ميزة 3`</span></li>
+                    </ul>
+                    <a href=""
+                        class="px-4 py-2 w-full md:w-auto border rounded-lg flex justify-center items-center gap-1 bg-white">مشاهدة
+                        المشروع على جيت هب
+                        <img src="./images/github.png" alt="" class="h-5">
+                    </a>
+                </div>
+                <img src="./images/memoji-computer.png" alt=""
+                    class=" rounded-2xl mt-5 -mb-10 h-[220px] object-fill md:hidden">
+                <img src="./images/memoji-computer.png" alt=""
+                    class=" hidden md:block md:-mr-10 md:w-[300px] md:-mb20 ">
+            </div>
+
+        </main>
+
+        <main class="grid place-content-center gap-14 mt-10">
+            <div
+                class="flex flex-col md:flex-row md:gap-5 border bg-gray-800 rounded-2xl px-8 pt-8 md:pb-8 overflow-hidden max-w-[300px] md:max-w-[700px]">
+                <div class="space-y-5">
+                    <div class="border-b border-grey-600 pb-3">
+                        <h3
+                            class="text-sm font-bold bg-gradient-to-r from-emerald-300 to-cyan-500 text-transparent bg-clip-text inline tracking-widest">
+                            مشروع 3</h3>
+                        <h2 class="text-4xl font-bold text-neutral-50 uppercase">وصف المشروع الثالث</h2>
+                    </div>
+                    <ul class="text-neutral-500">
+                        <li class="flex items-center gap-1"> <img src="./images/memoji-computer.png" alt=""
+                                class="size-7"><span>ميزة 1</span></li>
+                        <li class="flex items-center gap-1"> <img src="./images/memoji-computer.png" alt=""
+                                class="size-7"><span>ميزة 2</span></li>
+                        <li class="flex items-center gap-1"> <img src="./images/memoji-computer.png" alt=""
+                                class="size-7"><span>ميزة 3`</span></li>
+                    </ul>
+                    <a href=""
+                        class="px-4 py-2 w-full md:w-auto border rounded-lg flex justify-center items-center gap-1 bg-white">مشاهدة
+                        المشروع على جيت هب
+                        <img src="./images/github.png" alt="" class="h-5">
+                    </a>
+                </div>
+                <img src="./images/memoji-computer.png" alt=""
+                    class=" rounded-2xl mt-5 -mb-10 h-[220px] object-fill md:hidden">
+                <img src="./images/memoji-computer.png" alt=""
+                    class=" hidden md:block md:w-[300px] md:-mr-10 md:-mb20 ">
+            </div>
+        </main>
+    </section>
+    <section class="mt-20 -rotate-[2deg]">
+        <a href="https://github.com/AbubakerSallam">
+            <marquee class="bg-gradient-to-l from-emerald-300 to-cyan-300 py-4">
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+                <span class="text-md font-bold items-center inline-flex gap-2">SOURCE <img src="./images/github.png"
+                        alt="" class="w-7"></span>
+
+            </marquee>
+        </a>
+    </section>
+
+
+    <section id="about" class="mt-10 px-12 max-w-6xl mx-auto">
+        <div class="text-center space-y-3">
+            <h3
+                class="uppercase text-sm font-bold bg-gradient-to-r from-emerald-300 to-cyan-500 text-transparent bg-clip-text inline">
+                فيدبالك العملاء</h3>
+
+            <h2
+                class="pb-4 text-5xl font-bold bg-gradient-to-b from-neutral-50 from-40% to-neutral-500 text-transparent bg-clip-text">
+                ردود بعض العملاء</h2>
+            <p class="text-neutral-400"> لاتحكم فقط من كلامي <br> استمع إلى ما يقوله عملائي:</p>
+        </div>
+
+        <main class="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="border border-gray-600 bg-gray-800 rounded-2xl p-5">
+                <div class="flex items-center gap-3 mb-5">
+                    <img src="https://placehold.co/40x40" alt="" class="rounded-full">
+                    <div>
+                        <h3 class="text-lg font-bold text-white"> محمد الرائد</h3>
+                        <h4 class="text-sm text-neutral-400">مصمم ومطور</h4>
+                    </div>
+                </div>
+
+                <p class="text-sm text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+                    enim suscipit totam debitis similique officia explicabo, voluptate quam dolorem ducimus
+                    voluptatibus voluptates, unde esse. Ducimus pariatur sequi quas suscipit ad?</p>
+
+            </div>
+            <div class="border border-gray-600 bg-gray-800 rounded-2xl p-5">
+                <div class="flex items-center gap-3 mb-5">
+                    <img src="https://placehold.co/40x40" alt="" class="rounded-full">
+                    <div>
+                        <h3 class="text-lg font-bold text-white"> محمد الرائد</h3>
+                        <h4 class="text-sm text-neutral-400">مصمم ومطور</h4>
+                    </div>
+                </div>
+
+                <p class="text-sm text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+                    enim suscipit totam debitis similique officia explicabo, voluptate quam dolorem ducimus
+                    voluptatibus voluptates, unde esse. Ducimus pariatur sequi quas suscipit ad?</p>
+
+            </div>
+            <div class="border border-gray-600 bg-gray-800 rounded-2xl p-5">
+                <div class="flex items-center gap-3 mb-5">
+                    <img src="https://placehold.co/40x40" alt="" class="rounded-full">
+                    <div>
+                        <h3 class="text-lg font-bold text-white"> محمد الرائد</h3>
+                        <h4 class="text-sm text-neutral-400">مصمم ومطور</h4>
+                    </div>
+                </div>
+
+                <p class="text-sm text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+                    enim suscipit totam debitis similique officia explicabo, voluptate quam dolorem ducimus
+                    voluptatibus voluptates, unde esse. Ducimus pariatur sequi quas suscipit ad?</p>
+
+            </div>
+            <div class="border border-gray-600 bg-gray-800 rounded-2xl p-5">
+                <div class="flex items-center gap-3 mb-5">
+                    <img src="https://placehold.co/40x40" alt="" class="rounded-full">
+                    <div>
+                        <h3 class="text-lg font-bold text-white"> محمد الرائد</h3>
+                        <h4 class="text-sm text-neutral-400">مصمم ومطور</h4>
+                    </div>
+                </div>
+
+                <p class="text-sm text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+                    enim suscipit totam debitis similique officia explicabo, voluptate quam dolorem ducimus
+                    voluptatibus voluptates, unde esse. Ducimus pariatur sequi quas suscipit ad?</p>
+
+            </div>
+            <div class="border border-gray-600 bg-gray-800 rounded-2xl p-5">
+                <div class="flex items-center gap-3 mb-5">
+                    <img src="https://placehold.co/40x40" alt="" class="rounded-full">
+                    <div>
+                        <h3 class="text-lg font-bold text-white"> محمد الرائد</h3>
+                        <h4 class="text-sm text-neutral-400">مصمم ومطور</h4>
+                    </div>
+                </div>
+
+                <p class="text-sm text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+                    enim suscipit totam debitis similique officia explicabo, voluptate quam dolorem ducimus
+                    voluptatibus voluptates, unde esse. Ducimus pariatur sequi quas suscipit ad?</p>
+
+            </div>
+            <div class="border border-gray-600 bg-gray-800 rounded-2xl p-5">
+                <div class="flex items-center gap-3 mb-5">
+                    <img src="https://placehold.co/40x40" alt="" class="rounded-full">
+                    <div>
+                        <h3 class="text-lg font-bold text-white"> محمد الرائد</h3>
+                        <h4 class="text-sm text-neutral-400">مصمم ومطور</h4>
+                    </div>
+                </div>
+
+                <p class="text-sm text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+                    enim suscipit totam debitis similique officia explicabo, voluptate quam dolorem ducimus
+                    voluptatibus voluptates, unde esse. Ducimus pariatur sequi quas suscipit ad?</p>
+
+            </div>
+            <div class="border border-gray-600 bg-gray-800 rounded-2xl p-5">
+                <div class="flex items-center gap-3 mb-5">
+                    <img src="https://placehold.co/40x40" alt="" class="rounded-full">
+                    <div>
+                        <h3 class="text-lg font-bold text-white"> محمد الرائد</h3>
+                        <h4 class="text-sm text-neutral-400">مصمم ومطور</h4>
+                    </div>
+                </div>
+
+                <p class="text-sm text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+                    enim suscipit totam debitis similique officia explicabo, voluptate quam dolorem ducimus
+                    voluptatibus voluptates, unde esse. Ducimus pariatur sequi quas suscipit ad?</p>
+
+            </div>
+            <div class="border border-gray-600 bg-gray-800 rounded-2xl p-5">
+                <div class="flex items-center gap-3 mb-5">
+                    <img src="https://placehold.co/40x40" alt="" class="rounded-full">
+                    <div>
+                        <h3 class="text-lg font-bold text-white"> محمد الرائد</h3>
+                        <h4 class="text-sm text-neutral-400">مصمم ومطور</h4>
+                    </div>
+                </div>
+
+                <p class="text-sm text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+                    enim suscipit totam debitis similique officia explicabo, voluptate quam dolorem ducimus
+                    voluptatibus voluptates, unde esse. Ducimus pariatur sequi quas suscipit ad?</p>
+
+            </div>
+            <div class="border border-gray-600 bg-gray-800 rounded-2xl p-5">
+                <div class="flex items-center gap-3 mb-5">
+                    <img src="https://placehold.co/40x40" alt="" class="rounded-full">
+                    <div>
+                        <h3 class="text-lg font-bold text-white"> محمد الرائد</h3>
+                        <h4 class="text-sm text-neutral-400">مصمم ومطور</h4>
+                    </div>
+                </div>
+
+                <p class="text-sm text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+                    enim suscipit totam debitis similique officia explicabo, voluptate quam dolorem ducimus
+                    voluptatibus voluptates, unde esse. Ducimus pariatur sequi quas suscipit ad?</p>
+
+            </div>
+            <div class="border border-gray-600 bg-gray-800 rounded-2xl p-5">
+                <div class="flex items-center gap-3 mb-5">
+                    <img src="https://placehold.co/40x40" alt="" class="rounded-full">
+                    <div>
+                        <h3 class="text-lg font-bold text-white"> محمد الرائد</h3>
+                        <h4 class="text-sm text-neutral-400">مصمم ومطور</h4>
+                    </div>
+                </div>
+
+                <p class="text-sm text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+                    enim suscipit totam debitis similique officia explicabo, voluptate quam dolorem ducimus
+                    voluptatibus voluptates, unde esse. Ducimus pariatur sequi quas suscipit ad?</p>
+
+            </div>
+        </main>
+    </section>
+
+
+    <section class="mt-12 px-12 max-w-6xl mx-auto" id="about">
+        <div class="text-center space-y-3">
+            <h3
+                class="uppercase text-sm font-bold bg-gradient-to-r from-emerald-300 to-cyan-500 text-transparent bg-clip-text inline">
+                من أنا؟</h3>
+
+            <h2
+                class="pb-4 text-5xl font-bold bg-gradient-to-b from-neutral-50 from-40% to-neutral-500 text-transparent bg-clip-text">
+                لتعرف عني أكثر قليلا</h2>
+            <p class="text-neutral-400">تعرف أكثر حول من أنا, مهاراتي, ماذا أصنع, وماهي منجزاتي</p>
+        </div>
+        <main class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="border border-gray-600 bg-gray-800 rounded-2xl px-5 pt-5 overflow-hidden">
+                <div class="space-y-2">
+                    <div class="flex items-center gap-2">
+                        <img src="./images/github.png" alt="" class="rounded-bl-full bg-emerald-300 w-5 h-5">
+                        <h3 class="text-lg font-bold text-white">هوايات
+
+                        </h3>
+
+                    </div>
+                    <p class="text-sm text-gray-400">تطوير الويب, تصميم واجهات المستخدم, برمجة تطبيقات الموبايل فلاتر.
+                    </p>
+                </div>
+                <div class="flex justify-center">
+                    <img src="./images/flutter.png" alt="" class="h-44 -mb-10 mt-4">
+                </div>
+            </div>
+            <div class="col-span-1 md:col-span-2 border border-gray-600 bg-gray-800 rounded-2xl p-5 overflow-hidden">
+                <div class="space-y-2">
+                    <div class="flex items-center gap-2">
+                        <img src="./images/github.png" alt="" class="rounded-full bg-emerald-300 h-8 w-8">
+                        <h3 class="text-lg font-bold text-white">أدواتي</h3>
+                    </div>
+                    <p class="text-sm text-gray-400">أستخدم أدوات مثل فلاتر, تايلويند سي اس اس, جيت هب, وغيرها من
+                        الأدوات التي تساعدني في تطوير تطبيقات الويب والموبايل.</p>
+                </div>
+                <ul class="grid grid-cols-3 md:grid-cols-5 text-white text-sm gap-2 mt-2 text-center">
+                    <li class="border border-gray-600 p-2 rounded-lg bg-gray-900">Flutter</li>
+                    <li class="border border-gray-600 p-2 rounded-lg bg-gray-900">Dart</li>
+                    <li class="border border-gray-600 p-2 rounded-lg bg-gray-900">++C</li>
+                    <li class="border border-gray-600 p-2 rounded-lg bg-gray-900">HTML</li>
+                    <li class="border border-gray-600 p-2 rounded-lg bg-gray-900">CSS</li>
+                    <li class="border border-gray-600 p-2 rounded-lg bg-gray-900">JavaScript</li>
+                    <li class="border border-gray-600 p-2 rounded-lg bg-gray-900">Tailwindsss</li>
+                    <li class="border border-gray-600 p-2 rounded-lg bg-gray-900">PHP</li>
+                    <li class="border border-gray-600 p-2 rounded-lg bg-gray-900">SQL</li>
+                    <li class="border border-gray-600 p-2 rounded-lg bg-gray-900">Firebase</li>
+                    <li class="border border-gray-600 p-2 rounded-lg bg-gray-900">GitHub</li>
+                    <li class="border border-gray-600 p-2 rounded-lg bg-gray-900">vuejs</li>
+                </ul>
+            </div>
+            <div class="col-span-1 md:col-span-2 border border-gray-600 bg-gray-800 rounded-2xl p-5 overflow-hidden">
+                <div class="space-y-2">
+                    <div class="flex items-center gap-2">
+                        <img src="./icons/star.svg" class="rounded-full bg-emerald-300" alt="">
+                        <h3 class="text-lg font-bold text-white">Beyond the code</h3>
+                    </div>
+                    <p class="text-sm text-gray-400">Explore the books shaping my perspectives.</p>
+                </div>
+                <ul class="grid grid-cols-2 md:grid-cols-5 text-white text-sm gap-2 mt-2 text-center">
+
+                    <li class="border border-gray-600 p-2 rounded-lg shadow-xl shadow-emerald-300">القراءة</li>
+                    <li class="border border-gray-600 p-2 rounded-lg shadow-xl shadow-emerald-300">اكتشاف الاشياء</li>
+                    <li class="border border-gray-600 p-2 rounded-lg shadow-xl shadow-emerald-300">التنزه</li>
+                </ul>
+            </div>
+
+            <div class="border border-gray-600 bg-gray-800 rounded-2xl overflow-hidden">
+                <img src="./images/map.png" alt="" class="w-full h-full object-cover">
+            </div>
+        </main>
+    </section>
+
+    <section class="max-w-6xl mx-auto p-12">
+        <main
+            class="p-5 bg-gradient-to-l from-emerald-300 to-cyan-300 rounded-xl space-y-3 md:space-y-0 md:flex md:justify-between md:items-center">
+            <div class="space-y-2 md:space-y-0 ">
+                <h3 class="text-2xl font-bold">لنخلق شيئًا مذهلاً معًا</h3>
+                <p class="text-sm text-gray-600">دعنا نذهب بعيدا في عالم البرمجة, لنبدأ مشروعك القادم.</p>
+            </div>
+            <div>
+                <a href="https://linktr.ee/AbubakerSallam">
+
+                    <button
+                        class="px-4 py-2 rounded-lg bg-black text-white flex items-center justify-center gap-1 w-full ">تواصل
+                        معي
+                    </button>
+                </a>
+            </div>
+        </main>
+    </section>
+
+
+    <footer class="max-w-6xl mx-auto px-12 py-5 border-t border-gray-600">
+        <main class="flex justify-between text-gray-600 text-sm">
+            <p>&copy; جميع الحقوق محفوظة , ابوبكر سلام.</p>
+            <ul class="flex items-center gap-2">
+                <li class="hover:underline hover:cursor-pointer">
+                    <a href="#">يوتيوب</a>
+                </li>
+                <li class="hover:underline hover:cursor-pointer"><a href="#">اكس</a></li>
+                <li class="hover:underline hover:cursor-pointer"><a href="#">فيسبوك</a></li>
+            </ul>
+        </main>
+    </footer>
+</body>
+
+</html>
